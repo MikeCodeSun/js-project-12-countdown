@@ -1,0 +1,56 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.img-container {
+}
+
+.section {
+  padding: 5rem 0;
+  background-color: lightgray;
+  min-height: 100vh;
+}
+
+.section-center {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 90vw;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.info {
+  padding: 1rem;
+}
+
+.deadline {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 1rem;
+}
+
+.deadline-format {
+  background-color: darkblue;
+  /* padding: 0.5rem; */
+  border-radius: 5px;
+  width: 65px;
+  height: 60px;
+  padding: 0.5rem;
+}
+
+.deadline-format div h4,
+.deadline-format div h5 {
+  color: white;
+}
